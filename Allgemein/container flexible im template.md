@@ -99,7 +99,3 @@ Damit steuerst du die Ausgabe seitenweise.
 * **Global** per Template-Option (empfohlen)
 * **Pro Modulposition** (fix eingebaut)
 * **Pro Seite / Menüpunkt** (per PHP-Abfrage)
-
----
-
-Soll ich dir daraus ein **fertiges Joomla 5 Template (ZIP)** machen, das schon die Umschalt-Option für `container` / `container-fluid` im Backend integriert hat?
