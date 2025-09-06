@@ -1,4 +1,4 @@
-# wie kann man in joomla5 die Whitespaces entfernen Teil2
+# wie kann man in joomla5 die Whitespaces entfernen? (Teil2)
 
 wenn wir global Whitespaces optimieren, dürfen **`<pre>`, `<code>` und `<textarea>`** nicht verändert werden.
 Dafür geht man so vor:
@@ -76,5 +76,6 @@ final class RemoveWhitespace extends CMSPlugin
 * Ersetzt sie temporär durch Platzhalter (`###WHITESPACE_PROTECT_x###`).
 * Führt die Whitespaces-Reduzierung nur am übrigen HTML durch.
 * Setzt danach die Originalblöcke unverändert wieder ein.
+
 
 Damit bleiben Code-Beispiele, Textareas und Preformatted-Text **unverändert**.
