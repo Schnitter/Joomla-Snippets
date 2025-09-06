@@ -1,4 +1,4 @@
-#grabb body class
+# Grabb body class
 
 
 
@@ -17,4 +17,5 @@ Als nächstes holen wir uns vom aktuellen Menüpunkt die Seitenklasse und legen 
 anschließend den Code für die Body zeile
 ```
 <body <?php echo (!empty($pageclass_sfx) ? ' class="' . $pageclass_sfx . '"': ''); ?>>
+
 ```
