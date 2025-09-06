@@ -1,4 +1,4 @@
-# wie kann man in joomla5 bootrapmenu mit child elemnten erstellen
+# wie kann man in joomla5 bootrapmenu mit child elementen erstellen?
 
 In Joomla 5 hast du mehrere Möglichkeiten, ein Menü mit **Bootstrap 5** und **Child-Elementen (Untermenüs / Dropdowns)** umzusetzen.
 Ich zeige dir den typischen Weg über das integrierte Joomla-Menümodul + Bootstrap 5 Markup.
@@ -104,4 +104,5 @@ Oder einfach manuell die Bootstrap 5 Bundle JS (enthält Dropdown) einfügen.
 
 * **Top-Level-Menüpunkte** erscheinen als Navbar-Links.
 * **Child-Elemente** erscheinen als Dropdown-Menü in Bootstrap-Stil.
+
 * Funktioniert responsive inkl. Mobile-Toggle.
