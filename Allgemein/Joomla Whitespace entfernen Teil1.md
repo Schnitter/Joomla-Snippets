@@ -1,4 +1,4 @@
-# wie kann man in joomla5 die Whitespaces entfernen?
+# wie kann man in joomla5 die Whitespaces entfernen? (Teil1)
 
 In Joomla 5 kannst du Whitespaces im ausgegebenen HTML entfernen, indem du ein kleines **System-Plugin** erstellst, das den Output-Buffer filtert, bevor er an den Browser gesendet wird.
 
@@ -91,3 +91,4 @@ final class RemoveWhitespace extends CMSPlugin
 
 * Nicht übertreiben, sonst können manche Inline-Skripte oder `<pre>`-Tags kaputtgehen.
 * Am besten das Plugin so anpassen, dass es bestimmte Bereiche ignoriert (z. B. `<pre>`, `<code>`, `<textarea>`).
+
